@@ -33,7 +33,7 @@ h2 {
     font-size: 20px;
     padding-bottom: 20px;
 }
-a {
+.link {
     color: white;
     text-decoration: none;
     padding: 20px;
@@ -46,7 +46,7 @@ a {
     text-transform: uppercase;
     transition: 0.3s ease-in;
 }
-a:hover {
+.link:hover {
     background-color: #ffdf00;
 }
 .fa-brands {
@@ -54,4 +54,8 @@ a:hover {
     padding: 10px;
     font-size: 50px;
     margin-top: 10px;
+    transition: 0.3s ease-in;
+}
+.fa-brands:hover {
+    color: white;
 }
