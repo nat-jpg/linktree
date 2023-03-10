@@ -4,7 +4,7 @@ body {
 }
 
 .container {
-    max-width: 500px;
+    max-width: 400px;
     margin: 0 auto;
     text-align: center;
     padding-top: 30px;
@@ -24,6 +24,8 @@ h1 {
     font-weight: 200;
     font-size: 30px;
     padding: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
 }
 h2 {
     color: white;
@@ -40,4 +42,16 @@ a {
     border-radius: 30px;
     margin-bottom: 10px;
     font-size: 20px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    transition: 0.3s ease-in;
+}
+a:hover {
+    background-color: #ffdf00;
+}
+.fa-brands {
+    color:#d32417;
+    padding: 10px;
+    font-size: 50px;
+    margin-top: 10px;
 }
